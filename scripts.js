@@ -1,0 +1,1 @@
+console.log('Site carregado com sucesso. Editar links no HTML para personalizar.');

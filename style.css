@@ -1,5 +1,3 @@
-/* style.css */
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -36,6 +34,11 @@ main {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 20px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.produto:hover {
+  transform: scale(1.02);
 }
 
 .produto img {
@@ -60,6 +63,14 @@ main {
 
 .btn:hover {
   background: #004d99;
+}
+
+.zap {
+  background-color: #25D366;
+}
+
+.zap:hover {
+  background-color: #128C7E;
 }
 
 .sobre, .depoimentos {
